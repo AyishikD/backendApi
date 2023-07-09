@@ -1,20 +1,38 @@
-const express=require("express");
-const cors=require("cors");
+const express = require('express');
+const apiData = require('./data.json');
 
-app.use(cors());
+// Add middleware
+const logger = require('morgan');
+const bodyParser = require('body-parser');
+const errorHandler = require('errorhandler');
 
-const app =express();
-const port = process.env.PORT||8080;
-const apiData= require("./data.json");
+const app = express();
+const port = process.env.PORT || 3000;
 
-app.get("/",(req,res)=>{
-  res.send("Hello");
+// Middleware setup
+app.use(logger('dev'));
+app.use(bodyParser.json());
+
+// Define routes
+app.get('/', (req, res) => {
+  res.send('Hello, API!');
 });
 
-app.get("/service",(req,res)=>{
-    res.send(apiData);
+app.get('/data', (req, res) => {
+  res.json(apiData);
 });
 
-app.listen(port,()=>{
-console.log("hello");
+// Error handling middleware
+if (app.get('env') === 'development') {
+  app.use(errorHandler());
+} else {
+  app.use((err, req, res, next) => {
+    res.status(err.status || 500);
+    res.send('Server Error');
+  });
+}
+
+// Start the server
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
