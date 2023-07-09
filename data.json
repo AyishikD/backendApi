@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "title": "Farmers Backpack for Tools and Supplies",
+      "price": 109.95,
+      "description": "A spacious and durable backpack designed specifically for farmers to carry their tools and supplies. It provides ample storage space and features convenient compartments for organizing farming essentials.",
+      "category": "farming tools",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "Premium Insecticides for Crop Protection",
+      "price": 22.3,
+      "description": "High-quality insecticides formulated to effectively control pests and protect crops. These insecticides are designed to target specific pests while minimizing harm to beneficial insects and the environment.",
+      "category": "insecticides",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "Durable Farming Gloves for Protection",
+      "price": 55.99,
+      "description": "High-quality gloves made from durable materials to provide hand protection during various farming activities. These gloves offer a comfortable fit, excellent grip, and resistance to chemicals and abrasions.",
+      "category": "farming tools",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "Essential Farming Equipment Set",
+      "price": 15.99,
+      "description": "A set of essential farming equipment including shovels, hoes, and rakes. These tools are made from high-quality materials for durability and efficiency in various farming tasks.",
+      "category": "farming tools",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "title": "Premium Quality Pesticides for Crop Protection",
+      "price": 695,
+      "description": "Top-of-the-line pesticides formulated to effectively eliminate pests and protect crops from damage. These pesticides are proven to provide excellent results while ensuring the safety of plants and the environment.",
+      "category": "pesticides",
+      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 6,
+      "title": "Farm Irrigation System Kit",
+      "price": 168,
+      "description": "A comprehensive irrigation system kit designed for efficient watering and irrigation in agricultural fields. It includes sprinklers, pipes, and fittings for easy installation and optimal water distribution.",
+      "category": "farming tools",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": 7,
+      "title": "High-Quality Fertilizers for Crop Nutrition",
+      "price": 9.99,
+      "description": "Premium fertilizers enriched with essential nutrients to promote healthy plant growth and maximize crop yields. These fertilizers are specially formulated to meet the nutritional needs of different crops.",
+      "category": "farming materials",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 400
+      }
+    },
+    {
+      "id": 8,
+      "title": "Farm Tool Maintenance and Repair Kit",
+      "price": 10.99,
+      "description": "A complete toolkit for maintaining and repairing farming tools. This kit includes essential tools and supplies for cleaning, lubricating, and fixing various farming implements, ensuring their longevity and optimal performance.",
+      "category": "farming tools",
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    }
+  ]
+  
